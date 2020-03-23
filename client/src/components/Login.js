@@ -38,7 +38,7 @@ const Login = () => {
 
   }
   return (
-    <>
+    <div className="login-wrapper">
       <h1>Welcome to the Bubble App!</h1>
       <h2>{loggedIn ? "You are Logged In" : "Please login"}</h2>
       <form onSubmit={login}>
@@ -58,7 +58,7 @@ const Login = () => {
           />
           <button>Log in</button>
         </form>
-    </>
+    </div>
   );
 };
 

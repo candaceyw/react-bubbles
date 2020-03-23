@@ -79,9 +79,9 @@ form {
     padding: 4px 36px 4px 40px;
   }
 
-  input {
-    width: 100px;
-  }
+  // input {
+  //   width: 100px;
+  // }
 }
 
 .button-row {
@@ -97,3 +97,46 @@ form {
     margin-top: 16px;
   }
 }
+.Nav{
+  padding: 5%;
+  background-color: #eaeaea;
+}
+
+ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+  li a {
+  
+  text-decoration: none;
+  
+  }
+
+.login-wrapper{
+  padding-left: 5%;
+  margin: 30px auto;
+}
+
+
+h2 {
+  color: #3ac6c6
+}
+
+input {
+  padding: 2%;
+  margin: 1%;
+  width: 100%;
+ font-size: 1.2em;
+
+}
+
+button {
+  padding: 3%;
+  background-color: #eaeaea;
+      text-align: center;
+    margin: auto auto;
+    width: 60%;
+    font-size: 1rem
+}
+
